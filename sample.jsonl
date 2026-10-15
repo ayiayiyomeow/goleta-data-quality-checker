@@ -1,0 +1,10 @@
+{"instruction":"翻译成英文","input":"你好","output":"Hello"}
+{"instruction":"计算","input":"1+1","output":"2"}
+{"instruction":"缺少输出","input":"测试"}
+{"instruction":"损坏的 JSON","input":"测试","output":}
+{"instruction":"翻译成英文","input":"你好","output":"Hello"}
+{"instruction":"错误类型","input":123,"output":"测试"}
+["不是对象"]
+
+{"instruction":"允许空字符串","input":"","output":""}
+{"instruction":"多个问题","output":null}

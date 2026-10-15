@@ -1,0 +1,48 @@
+{
+  "total_lines": 10,
+  "checked_lines": 10,
+  "valid_records": 3,
+  "invalid_records": 7,
+  "errors": [
+    {
+      "line_number": 3,
+      "issue_type": "missing_field",
+      "description": "缺少必需字段：output"
+    },
+    {
+      "line_number": 4,
+      "issue_type": "invalid_format",
+      "description": "无法解析 UTF-8 JSON：Expecting value: line 1 column 49 (char 48)"
+    },
+    {
+      "line_number": 5,
+      "issue_type": "duplicate_record",
+      "description": "三个字段的值与第 1 行完全相同"
+    },
+    {
+      "line_number": 6,
+      "issue_type": "invalid_type",
+      "description": "字段 input 必须为字符串"
+    },
+    {
+      "line_number": 7,
+      "issue_type": "invalid_format",
+      "description": "每行必须是 JSON 对象"
+    },
+    {
+      "line_number": 8,
+      "issue_type": "invalid_format",
+      "description": "无法解析 UTF-8 JSON：Expecting value: line 2 column 1 (char 1)"
+    },
+    {
+      "line_number": 10,
+      "issue_type": "missing_field",
+      "description": "缺少必需字段：input"
+    },
+    {
+      "line_number": 10,
+      "issue_type": "invalid_type",
+      "description": "字段 output 必须为字符串"
+    }
+  ]
+}

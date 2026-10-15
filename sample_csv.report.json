@@ -1,0 +1,23 @@
+{
+  "total_lines": 6,
+  "checked_lines": 6,
+  "valid_records": 3,
+  "invalid_records": 3,
+  "errors": [
+    {
+      "line_number": 4,
+      "issue_type": "missing_field",
+      "description": "缺少必需字段：output"
+    },
+    {
+      "line_number": 5,
+      "issue_type": "duplicate_record",
+      "description": "三个字段的值与第 2 行完全相同"
+    },
+    {
+      "line_number": 6,
+      "issue_type": "invalid_format",
+      "description": "CSV 空行或列数超过表头列数"
+    }
+  ]
+}

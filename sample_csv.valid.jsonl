@@ -1,0 +1,3 @@
+{"instruction": "翻译成英文", "input": "你好", "output": "Hello"}
+{"instruction": "计算", "input": "1+1", "output": "2"}
+{"instruction": "允许空字符串", "input": "", "output": ""}
